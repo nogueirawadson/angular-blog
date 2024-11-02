@@ -1,9 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { RouterLink} from '@angular/router';
+import { ContentComponent } from '../../pages/content/content.component';
 
 @Component({
   selector: 'app-big-card',
   standalone: true,
-  imports: [],
+  imports: [RouterLink, ContentComponent],
   templateUrl: './big-card.component.html',
   styleUrl: './big-card.component.css'
 })
@@ -15,6 +17,8 @@ photoCover:string = ""
 cardTitle:string = ""
 @Input()
 cardDescription:string =""
+@Input()
+Id:string= ""
 
   constructor(){
   }
