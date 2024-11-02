@@ -1,5 +1,14 @@
 .menu__title__container {
     color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px yellow;
+    border-end-start-radius: 300px;
+    border-start-end-radius: 300px;
+    width: 500px;
+
 
 }
 
@@ -15,4 +24,13 @@
 .menu__title__container hr {
     margin-top: 1.5rem;
     margin-bottom: .5rem;
+}
+
+img {
+  /** border: solid 1px tan; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
 }

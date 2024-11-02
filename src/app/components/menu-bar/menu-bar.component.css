@@ -2,11 +2,31 @@
 .container__menu-bar ul {
     display: flex;
     flex-direction: row;
+    font-size: 1rem;
+    
+  
     
 }
 
 .container__menu-bar ul li {
     margin-right: 1rem;
+    padding-left: 50px;
     list-style: none;
 
+
+}
+
+
+.container__menu-bar ul li:hover {
+    background: rgb(50, 49, 48);
+    border-radius: 1rem ;
+    color: black;
+
+}
+
+.container__menu-bar ul li a {
+    color: rgb(185, 209, 210);
+}
+.container__menu-bar {
+margin-bottom:1rem ;
 }

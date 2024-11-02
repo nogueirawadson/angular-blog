@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #111;
+   
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -12,6 +12,7 @@ a {
 text-decoration: none;
 }
 
-a:hover {
- color: silver;
+
+body {
+ background-color: #212123;
 }
